@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: DevOps.Y14Maven.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+=======
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+=======
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
+>>>>>>> f53d4242c820792402aadeacca236f763a4e079a
+>>>>>>> 61b12003db434ab63ca07703934b717cfd7c0428
+>>>>>>> 2887b7446831738e3d8184714b3d16f5683a0048

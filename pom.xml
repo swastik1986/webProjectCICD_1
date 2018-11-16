@@ -3,17 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>DevOps</groupId>
-  <artifactId>Y14Maven</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+ <artifactId>Y14Maven</artifactId>
+ <version>0.0.1-SNAPSHOT</version>
+ <packaging>jar</packaging>
 
-  <name>Y14Maven</name>
-  <url>http://maven.apache.org</url>
+ <name>Y14Maven</name>
+ <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+ <properties>
+   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
 
+<<<<<<< HEAD
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -45,28 +46,61 @@
             </dependency>
           </dependencies>
         
+=======
+ <dependencies>
+   <dependency>
+     <groupId>junit</groupId>
+     <artifactId>junit</artifactId>
+     <version>4.11</version>	
+     <!-- <version>3.8.1</version> -->
+     <scope>test</scope>
+   </dependency>
+ </dependencies>
+ 
+ <build>
+ <resources>
+     <resource>
+       <directory>src/main/resources-filtered</directory>
+       <filtering>true</filtering>
+     </resource>
+   </resources> 
+ <plugins>
+ <plugin>
+    
+         <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-resources-plugin</artifactId>
+           <version>2.7</version>
+         <dependencies>
+           <dependency>
+               <groupId>org.apache.maven.shared</groupId>
+               <artifactId>maven-filtering</artifactId>
+               <version>1.3</version>
+           </dependency>
+         </dependencies>
+       
+>>>>>>> 2887b7446831738e3d8184714b3d16f5683a0048
 </plugin>
-  
-  <!-- <plugin>
-  <groupId>org.codehaus.mojo</groupId>
-  <artifactId>exec-maven-plugin</artifactId>
-  <version>1.2.1</version>
-  <executions>
-    <execution>
-      <goals>
-        <goal>java</goal>
-      </goals>
-    </execution>
-  </executions>
-  <configuration>
-    <mainClass>App.java</mainClass>
-    <arguments>
-      <argument>foo</argument>
-      <argument>bar</argument>
-    </arguments>
-  </configuration>
+ 
+ <!-- <plugin>
+ <groupId>org.codehaus.mojo</groupId>
+ <artifactId>exec-maven-plugin</artifactId>
+ <version>1.2.1</version>
+ <executions>
+   <execution>
+     <goals>
+       <goal>java</goal>
+     </goals>
+   </execution>
+ </executions>
+ <configuration>
+   <mainClass>App.java</mainClass>
+   <arguments>
+     <argument>foo</argument>
+     <argument>bar</argument>
+   </arguments>
+ </configuration>
 </plugin> -->
 </plugins>
-  </build>
+ </build>
   
 </project>
