@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>DevOps</groupId>
+   <groupId>DevOps</groupId>
  <artifactId>Y14Maven</artifactId>
  <version>0.0.1-SNAPSHOT</version>
  <packaging>jar</packaging>
@@ -14,39 +14,6 @@
    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
  </properties>
 
-<<<<<<< HEAD
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>	
-      <!-- <version>3.8.1</version> -->
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  
-  <build>
-  <resources>
-      <resource>
-        <directory>src/main/resources-filtered</directory>
-        <filtering>true</filtering>
-      </resource>
-    </resources> 
-  <plugins>
-  <plugin>
-     
-          <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-resources-plugin</artifactId>
-            <version>2.7</version>
-          <dependencies>
-            <dependency>
-                <groupId>org.apache.maven.shared</groupId>
-                <artifactId>maven-filtering</artifactId>
-                <version>1.3</version>
-            </dependency>
-          </dependencies>
-        
-=======
  <dependencies>
    <dependency>
      <groupId>junit</groupId>
@@ -78,7 +45,6 @@
            </dependency>
          </dependencies>
        
->>>>>>> 2887b7446831738e3d8184714b3d16f5683a0048
 </plugin>
  
  <!-- <plugin>
